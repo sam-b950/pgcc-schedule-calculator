@@ -2,7 +2,6 @@ import streamlit as st
 from datetime import datetime, timedelta
 import pandas as pd
 from io import BytesIO
-from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import letter
